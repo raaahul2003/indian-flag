@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flag{
+    width: 100%;
+    height: 100vh;
+}
+
+.orange{
+    height: 33.3vh;
+    background-color: orangered;
+
+}
+.white{
+    height: 33.3vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.green{
+    height: 33.3vh;
+    background-color: green;
+
+}
+.chakra{
+    height: 33.3vh;
+    width: 33.3vh;
+
+    border-radius: 50%;
+    border: rgb(9, 9, 98) solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.spoke{
+    width: 4px;
+    height: 50%;
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: rgb(9, 9, 98);
+    transform-origin: bottom ;
+
+}
+.s0{
+    transform: translateX(-50%) rotate(0deg);                    
+}
+.s1{
+    transform: translateX(-50%) rotate(15deg);                    
+}
+.s2{
+    transform: translateX(-50%) rotate(30deg);
+}
+.s3{
+    transform: translateX(-50%) rotate(45deg);
+}
+.s4{
+    transform: translateX(-50%) rotate(60deg);
+}
+.s5{
+    transform: translateX(-50%) rotate(75deg);
+}
+.s6{
+    transform: translateX(-50%) rotate(90deg);
+}
+.s7{
+    transform: translateX(-50%) rotate(105deg);
+}
+.s8{
+    transform: translateX(-50%) rotate(120deg);
+}
+.s9{
+    transform: translateX(-50%) rotate(135deg);
+}
+.s10{
+    transform: translateX(-50%) rotate(150deg);
+}
+.s11{
+    transform: translateX(-50%) rotate(165deg);
+}
+.s12{
+    transform: translateX(-50%) rotate(180deg);
+}
+.s13{
+    transform: translateX(-50%) rotate(195deg);
+}
+.s14{
+    transform: translateX(-50%) rotate(210deg);
+}
+.s15{
+    transform: translateX(-50%) rotate(225deg);
+}
+.s16{
+    transform: translateX(-50%) rotate(240deg);
+}
+.s17{
+    transform: translateX(-50%) rotate(255deg);
+}
+.s18{
+    transform: translateX(-50%) rotate(270deg);
+}
+.s19{
+    transform: translateX(-50%) rotate(285deg);
+}
+.s20{
+    transform: translateX(-50%) rotate(300deg);
+}
+.s21{
+    transform: translateX(-50%) rotate(315deg);
+}
+.s22{
+    transform: translateX(-50%) rotate(330deg);
+}
+.s23{
+    transform: translateX(-50%) rotate(345deg);
+}
+.s24{
+    transform: translateX(-50%) rotate(360deg);
+}
